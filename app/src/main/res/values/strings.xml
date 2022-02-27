@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Chuck Norris Facts</string>
+    <string name="image_button_to_table_of_content">image button to table of content</string>
+    <string name="feeling_chucky">Feeling Chucky!?</string>
 </resources>
