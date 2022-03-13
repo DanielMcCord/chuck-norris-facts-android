@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph.xml">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FistFragment">
+
+    <fragment
+        android:id="@+id/FistFragment"
+        android:name="dev.danielmccord.chucknorrisfacts.FistFragment"
+        tools:layout="@layout/fragment_fist">
+
+        <action
+            android:id="@+id/action_FistFragment_to_MenuFragment"
+            app:destination="@id/MenuFragment"
+            />
+    </fragment>
+
+    <fragment
+        android:id="@+id/MenuFragment"
+        android:name="dev.danielmccord.chucknorrisfacts.MenuFragment"
+        tools:layout="@layout/fragment_menu">
+        <!-- TODO: add actions -->
+    </fragment>
 
 </navigation>
