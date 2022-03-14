@@ -5,6 +5,7 @@
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bckgrd2"
     tools:context=".FistFragment">
 
     <TextView
@@ -14,6 +15,8 @@
         android:layout_marginTop="1dp"
         android:text="@string/feeling_chucky"
         android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/white"
         android:textColor="@android:color/holo_red_dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
