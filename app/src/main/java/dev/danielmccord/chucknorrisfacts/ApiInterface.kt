@@ -12,7 +12,7 @@ interface ApiInterface {
     ): Call<ChuckFact>
 
     @GET("categories")
-    fun getCategories(): Call<List<ChuckCategory>>
+    fun getCategories(): Call<List<String>>
 
     @GET("search")
     fun getSearch(
