@@ -132,5 +132,8 @@
     <string name="describe_uncategorized">
 	    "The shear awesomeness of these facts defy categorization."
     </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fact_header">True Facts - Chuck is beyond reproach!</string>
 
 </resources>
