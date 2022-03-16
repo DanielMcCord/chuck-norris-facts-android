@@ -16,6 +16,10 @@ class FactsAdapter(val context: Context, val facts: List<ChuckFact>) : RecyclerV
         override fun onListItemClick(itemNumber: Int, itemView: View) {
             TODO("Not yet implemented")
         }
+
+        fun bind(listIndex: Int) {
+
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FactViewHolder {
@@ -23,6 +27,8 @@ class FactsAdapter(val context: Context, val facts: List<ChuckFact>) : RecyclerV
     }
 
     override fun onBindViewHolder(holder: FactViewHolder, position: Int) {
+        Log.d(TAG, "#$position")
+        holder.bind(position)
         TODO("Not yet implemented")
     }
 

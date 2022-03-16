@@ -16,6 +16,10 @@ class CategoriesAdapter(val context: Context, val categories: List<String>): Rec
         override fun onListItemClick(itemNumber: Int, itemView: View) {
             TODO("Not yet implemented")
         }
+
+        fun bind(listIndex: Int) {
+
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CategoryViewHolder {
@@ -23,6 +27,8 @@ class CategoriesAdapter(val context: Context, val categories: List<String>): Rec
     }
 
     override fun onBindViewHolder(holder: CategoryViewHolder, position: Int) {
+        Log.d(TAG, "#$position")
+        holder.bind(position)
         TODO("Not yet implemented")
     }
 
