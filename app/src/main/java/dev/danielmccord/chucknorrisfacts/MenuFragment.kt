@@ -23,7 +23,6 @@ class MenuFragment : Fragment() {
     private val TAG: String = MenuFragment::class.java.simpleName
     lateinit var adapter: CategoriesAdapter
     private lateinit var binding: FragmentMenuBinding
-    var layoutManager = LinearLayoutManager(requireContext())
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
